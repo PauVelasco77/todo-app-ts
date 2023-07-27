@@ -13,5 +13,9 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "react/react-in-jsx-scope": "off",
+    "indent": ["error", 2],
+//quotes
+'jsx-quotes': [2, 'prefer-single'],
+
   },
 };
