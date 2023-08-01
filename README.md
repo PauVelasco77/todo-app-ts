@@ -2,7 +2,7 @@
 
 <!-- ![Todo App](src/assets/todo-photo.png) -->
 <div style="display: flex; justify-content: center; padding: 20px">
-<img src="src/assets/todo-photo.png" alt="Todo App" width="400" styles={{}}>
+  <img src="src/assets/todo-photo.png" alt="Todo App" width="400" >
 </div>
 
 A simple Todo List application built with React and TypeScript.
