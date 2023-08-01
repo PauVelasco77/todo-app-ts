@@ -1,4 +1,4 @@
-import { type TodoTitle } from '../../types'
+import { type TodoTitle } from '../types'
 import { CreateTodo } from './CreateTodo'
 
 interface Props {

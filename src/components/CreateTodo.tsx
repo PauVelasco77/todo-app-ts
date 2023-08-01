@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { type TodoTitle } from '../../types'
+import { type TodoTitle } from '../types'
 
 interface Props {
   saveTodo: ({ title }: TodoTitle) => void
