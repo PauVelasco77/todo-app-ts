@@ -1,27 +1,63 @@
-# React + TypeScript + Vite
+#  📝Todo App with React-TS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- ![Todo App](src/assets/todo-photo.png) -->
+<div style="display: flex; justify-content: center; padding: 20px">
+<img src="src/assets/todo-photo.png" alt="Todo App" width="400" styles={{}}>
+</div>
 
-Currently, two official plugins are available:
+A simple Todo List application built with React and TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Demo
 
-- Configure the top-level `parserOptions` property like this:
+You can try out the Todo App by visiting the [live demo](https://example.com/todo-app).
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Features
+
+- Add, edit, and remove tasks.
+- Mark tasks as completed or uncompleted.
+- Filter tasks based on their completion status.
+- Responsive design for mobile and desktop screens.
+- Built with React and TypeScript for type-safe development.
+- Bundled using Vite for fast and efficient development.
+
+## Installation
+
+Before you start, make sure you have [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) installed.
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/PauVelasco77/todo-app-ts.git
+cd todo-app-ts
+``````
+
+2. Install the project dependencies:
+
+```bash
+yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+1. To start the development server, use the following command:
+
+```bash
+yarn dev
+```
+
+This will start the development server at http://localhost:5173.
+
+To build the production-ready version, run:
+
+```bash
+yarn prod
+```
+
+The build artifacts will be available in the dist folder.
+
