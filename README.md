@@ -12,10 +12,7 @@ A simple Todo List application built with React and TypeScript.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-
-## Demo
-
-You can try out the Todo App by visiting the [live demo](https://example.com/todo-app).
+- [Directory](#directory)
 
 ## Features
 
@@ -59,5 +56,34 @@ To build the production-ready version, run:
 yarn prod
 ```
 
-The build artifacts will be available in the dist folder.
+## Directory
+```bash
+.
+├── README.md
+├── index.html
+├── package.json
+├── public
+│   └── vite.svg
+├── src
+│   ├── App.tsx
+│   ├── assets
+│   │   ├── react.svg
+│   │   └── todo-photo.png
+│   ├── components
+│   │   ├── CreateTodo.tsx
+│   │   ├── Filters.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   ├── Todo.tsx
+│   │   └── Todos.tsx
+│   ├── consts.ts
+│   ├── index.css
+│   ├── main.tsx
+│   ├── types.d.ts
+│   └── vite-env.d.ts
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── yarn.lock
+```
 
